@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{710A71A5-3B36-4453-9440-6CAEB8034B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{37E3BD32-5428-49E7-9051-95153E7A75FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{710A71A5-3B36-4453-9440-6CAEB8034B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710A71A5-3B36-4453-9440-6CAEB8034B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{710A71A5-3B36-4453-9440-6CAEB8034B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E3BD32-5428-49E7-9051-95153E7A75FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E3BD32-5428-49E7-9051-95153E7A75FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E3BD32-5428-49E7-9051-95153E7A75FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E3BD32-5428-49E7-9051-95153E7A75FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
