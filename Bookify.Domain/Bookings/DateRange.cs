@@ -11,7 +11,7 @@ public record DateRange
 
     public int LengthInDays => End.DayNumber - Start.DayNumber;
 
-    public DateRange Create(DateOnly start, DateOnly end)
+    public static DateRange Create(DateOnly start, DateOnly end)
     {
         if (start > end)
         {
