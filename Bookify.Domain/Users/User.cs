@@ -12,6 +12,10 @@ public class User : Entity
         Email = email;
     }
 
+    private User()
+    {
+    }
+
     public FirstName FirstName { get; init; }
     public LastName LastName { get; init; }
     public Email Email { get; init; }
